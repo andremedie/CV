@@ -11,12 +11,13 @@
 }
 
 .cvbild {
-    padding: 0px;
-    width: 960px;
-    height: 70%; 
+    
+    padding: 30px;
+    width: 520px;
     border: 10px solid rgba(0, 0, 0, 0);
 
 }
+
 
 div {
     font-family: "helvetica", Arial, serif;
