@@ -3,7 +3,7 @@
 .start1 {
     background-color: rgba(255, 255, 255, 0.801);
     width: 100%;
-    height: 850px;
+    height: 100%;
     color: rgb(255, 81, 0);
     margin: 0px;
     padding-bottom: 30px;
@@ -12,14 +12,13 @@
 
 .cvbild {
     padding: 0px;
-    width: 7em;
-    height: 8em; 
+    width: 960px;
+    height: 70%; 
     border: 10px solid rgba(0, 0, 0, 0);
 
 }
 
 div {
-
     font-family: "helvetica", Arial, serif;
 }
 
@@ -33,6 +32,7 @@ background-position: center;
 background-size: 100%;
 background-attachment: fixed;
 margin: 0 auto;
+width: 100%;
 
 
 }   
@@ -119,6 +119,7 @@ margin: auto;
 .brodtext {
     text-align: left;
     word-spacing:3px;
+    padding: 10px;
 }
 
 h3 {
@@ -129,7 +130,9 @@ a {
     color: black;
 }
 
-
+.prodbilder {
+    width: 100%;
+}
 
 
 .footer {
@@ -168,7 +171,7 @@ a {
 
 /* här är bästa koden */
 
-@media (max-width: 600px){ html, body, .content, .content1 {
+/*@media (max-width: 600px){ html, body, .content, .content1 {
     margin: 0 auto;
     font-size: 12px;
     width: 100%;
@@ -189,5 +192,4 @@ html {
             height: 100%;
             width: 100%;
         }
-    }
-    
+    } */
